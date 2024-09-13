@@ -194,3 +194,13 @@ body {
     color: white;
     text-decoration: underline;
 }
+.footerThing {
+    color: rgb(237, 237, 237);
+    text-decoration: underline;
+    padding: 0.5rem 0;
+}
+
+.footerThing p:hover {
+    color: #fff; /* Change color on hover for better visibility */
+    text-decoration: none; /* Remove underline on hover for a cleaner look */
+}
