@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(13, 1, 1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.topper {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Netflex\ container\ image.png);
+    background-size: cover; /* Ensure the image covers the entire container */
+    height: 95vh;
+    width: 95vw;
+    justify-self: center;
+    border: 1px solid rgb(153, 18, 18);
+    overflow: hidden;
+    
+
+}
+.graphicSymbol img { 
+    width: 50%;
+    margin-left: 3rem;
+}
+.buttonswala button{
+    font-weight: bold;
+    height: 40px;
+    padding: 3px;
+    margin-right: 3rem;
+}
+.tomakeitwhite {
+    font-weight: bolder;
+    color: white;
+}
+.tomakeitwhite h1{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: white;
+}
+.tobebold {
+    color: white;
+    font-weight: bolder;
+}
+.learnMore {
+    max-width: 80;
+    min-width: 40%;
+}
+.tocolor {
+    background: linear-gradient(to right, #120a83, #6e45de);
+    border-radius: 25px;
+}
+@media (min-width:150px) {
+    .topper{
+        margin-left: 1rem;
+    }
+}
+@media (max-width:560px) {
+    .topper{
+        margin-right: 1rem;
+    }
+}
+.tohover:hover {
+    
+        transform: scale(1.1);
+    
+}
+.trending {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: underline;
+}
+.topper {
+    border-radius: 50px;
+}
+.trendingPictures {
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.trendingPictures:hover {
+
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.trendingPictures1 {
+    background-image: url(../images/pk.jpg);
+}
+.trendingPictures2 {
+    background-image: url(../images/Munna\ Bhai.webp);
+}
+.trendingPictures3 {
+    background-image: url(../images/THe\ Goat\ Life.jpeg);
+}
+.trendingPictures4 {
+    background-image: url(../images/3\ idiot.webp);
+}
+.trendingPictures5 {
+    background-image: url(../images/12\ fail.jpeg);
+}
+@font-face {
+    font-family: 'YourFontName';
+    src: url('../Google.Fonts/ProtestGuerrilla-Regular.ttf') format('truetype');
+    src: url('../Google.Fonts/JacquesFrancoisShadow-Regular.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'SecondFont';
+    src: url('../Google.Fonts/ProtestGuerrilla-Regular.ttf') format('truetype');
+    /* src: url('../Google.Fonts/JacquesFrancoisShadow-Regular.ttf') format('truetype'); */
+    font-weight: bolder;
+    font-style: italic;
+}
+  
+  .trendingPictures h1 {
+    font-family: 'YourFontName', sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    color: lightblue;
+}
+  .tomakepositionabsolute {
+    color: #D3D3D3;
+    position: relative;
+    margin-left: -50px;
+}
+.towatch {
+    height: 100px;
+}
+.screens {
+    max-width: 100px;
+    min-width: 50px;
+}
+.enjoy {
+    background: linear-gradient(to right, #1a119b, #e1ddec);
+    color: white;
+    border-radius: 50px;
+}
+.enjoy h1 {
+    font-family: 'SecondFont', sans-serif;
+    font-size: 0.9rem;
+}
+.togivecolor {
+    background: linear-gradient(to left, #2f2d4b, #3200ba);
+    font-size: small;
+    border-radius: 30px;
+    margin: 2px;
+}
+
+.custom-background {
+    background-color: #f8f9fa; /* Light background color */
+}
+.accordion-button {
+    border: none; /* Remove default border */
+    background-color: #4f5254; /* Change background color */
+    color: #fff; /* Change text color */
+}
+.accordion-button:not(.collapsed) {
+    background-color: #5b646d; /* Darker background for open items */
+}
+.accordion-body {
+    font-size: 1rem; /* Adjust font size */
+}
+.accordion-header button::after {
+    content: "\f078"; /* Unicode for downward arrow */
+    font-family: 'FontAwesome'; /* FontAwesome for icons */
+    font-weight: 900;
+}
+.accordion-button:not(.collapsed)::after {
+    content: "\f077"; /* Unicode for upward arrow */
+}
+.to-bold-text {
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1questions {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.readytowatch {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.tomakeheight {
+    height: 50px;
+}
+.questions p {
+    color: white;
+    text-decoration: underline;
+}
